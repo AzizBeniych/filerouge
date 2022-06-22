@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap');
+body{
+    font-family: 'Anek Malayalam', sans-serif;
+}
+.product_wrapper {
+    width: 781px;
+    height: 427px;
+    height: 422px;
+    background-color: #36A4AA;
+    /* margin-left: 200px; */
+    padding: 16px 50PX 136PX 50PX;
+    border-radius: 26px;
+    margin-left: 318px;
+    margin-top: 100px;
+}
+
+.product_wrapper img {
+    width: 177px;
+    margin-top: 43px;
+}
+.product_wrapper .name {
+    font-weight: bold;
+}
+
+.product_wrapper .buy {
+    text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: black;
+    padding: 6px 8px;
+    margin-top: 10px;
+    background-color: white;
+    /* border-radius: 40px; */
+    border: white;
+    margin-left: 5px;
+    font-size: 9px;
+}
+.buttons {
+    display: flex;
+}
+
+
+.product_wrapper .buy:hover {
+    background: #f17e0a;
+    border-color: #f17e0a;
+}
+.productcontent{
+    position: absolute;
+    margin-top: -262px;
+    margin-left: 270px;
+    width: 31%;
+}
+.description{
+    font-size: 12px;
+}
+
+
+.navcart {
+    font-size: 1.1rem;
+    padding-left: 388px;
+    padding-right: 10px;
+    margin-top: -1px;
+    height: 69px;
+    padding-top: 21px;
+    /* position: absolute; */
+    background-color: #36A4AA;
+}
+.nav-link {
+    display: inline;
+        padding: 0.5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+nav select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+nav select:hover {
+    color: #000000;
+}
+
+.footercart {
+    display: flex;
+    margin-top: 151px;
+    background-color: #36A4AA;
+    height: 235px;
+}
+#FooterLogo {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+}
+#FooterLogo img {
+    width: 100px;
+    margin-left: 197px;
+    margin-top: 32px;
+}
+#FooterLogo h4 {
+    text-align: center;
+    color: #ffffff;
+}
+.FooterForm {
+    text-align: center;
+    margin-left: 215px;
+    margin-top: 62px;
+}
+#emailFooter {
+    width: 305px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 16px;
+    height: 25px;
+    color: white;
+    border: white solid;
+}
+
+#footerButton {
+    color: white;
+    border: white solid;
+    background-color: transparent;
+    outline: none;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 5px 24PX 4PX 24PX;
+}
+
+
+#footerButton:hover {
+    background-color: #ffffff75;
+    border: none;
+    color: #0c5d62;
+}
+
+#FooterForm h3 {
+    margin-left: 235px;
+    /* margin-top: 10px; */
+    position: absolute;
+    margin-top: 33px;
+    color: #ffffff;
+}
+.FooterForm input {
+    margin: 5px;
+}
+#FooterLogo p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    margin-top: -40px;
+}
+.FooterForm input::placeholder{
+    text-align: center;
+}

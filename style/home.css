@@ -1,0 +1,443 @@
+
+    body{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width:100%;
+}
+#logo{
+top: 36%;
+left: 44%;
+width: 181px;
+position: absolute;
+}
+#slogan{
+    top: 60%;
+    left: 39%;
+position: absolute;
+color: white;
+}
+
+
+.nav {
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -667px;
+    position: absolute;
+}
+/* .nav-link {
+  text-decoration: none;
+  padding: 13px 13px;
+  color: #ffffff;
+  margin-right: 5px;
+} */
+.nav-link {
+    text-decoration: none;
+    padding: 13px 13px;
+    color: white;
+}
+.nav-link:hover {
+    /* text-decoration:none;
+    border-bottom: 2px solid #008f96; */
+    color:#133f41;
+  }
+  .nav-link.current {
+    border-bottom: 2px solid #000000;
+  }
+  a i{
+    color: #133f41;
+    font-size: 20px;
+    z-index: 5;
+  }
+  a i:hover{
+    color: #154547;
+  }
+  .user_cart{
+    margin-left: 80px;
+  }
+  .OfferBook{
+    width: 86%;
+    height: 200px;
+    background-color: transparent;
+    border: #36A4AA solid;
+    border-radius: 50px;
+    MARGIN-LEFT: -44PX;
+    display: flex;
+
+}
+
+  
+  @media (min-width: 768px) {
+     .nav {
+      font-size: 1.1rem;
+ 
+      padding-left: 348px;
+      padding-right: 10px;
+      margin-top: -537px;
+  }
+ 
+      /* margin-top: -528px; */
+    }
+    .nav-link {
+      padding: 20px 20px;
+    } 
+#OfferBookTitle{
+    text-align: center;
+    margin-top: 72px;
+    
+}
+
+.OfferBook{
+    width: 86%;
+    height: 211px;
+    background-color: transparent;
+    border: #36A4AA solid;
+    border-radius: 50px;
+    MARGIN-LEFT: -44PX;
+    display: flex;
+    justify-content: center;
+    
+
+}
+  #BookType{
+      text-align: center;
+      color: #36A4AA;
+  }
+  .SearchForm{
+    display: grid;
+    justify-content: center;
+    margin-top: 66px;
+  }
+  #SearchBtn{
+    width: 78px;
+    margin-left: 131px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#SearchBtn:hover{
+  background-color: #36A4AA;
+  color: white;
+}
+.SearchForm input{
+  width: 342px;
+  border: #36A4AA solid;
+  border-radius: 11px;
+  height: 29PX;
+  OUTLINE: NONE;
+  color: #36A4AA;
+}
+.SearchForm input::placeholder{
+  text-align: center;
+}
+.CardsBook{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: -78px;
+}
+
+  /* width: 101px;
+  height: 156px;
+  background-color: #36A4AA; */
+  /* margin-left: 200px; */
+  /* padding: 16px 50PX 136PX 50PX;
+  border-radius: 26px;
+  margin-left: 230px; */
+
+
+.book img{
+  width: 100px;
+}
+.book button{
+  background-color: white;
+  border-radius: 40px;
+  border: white;
+  padding: 4px 14PX 4PX 14PX;
+  margin-left: 8PX;
+  cursor: pointer;
+}
+.book button:hover{
+  background-color: #8bc3c6;
+  color: white;
+}
+.book p{
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  margin-top: 100px;
+  background-color: #36A4AA;
+  height: 235px;
+}
+#FooterLogo{
+  width: 50%;
+  display: grid;
+justify-content: center;
+}
+#FooterLogo img{
+width: 100px;
+margin-left: 197px;
+margin-top: 32px;
+}
+#FooterLogo h4{
+  text-align: center;
+  color: #ffffff;
+}
+#FooterLogo p{
+  text-align: center;
+  margin-top: -38px;
+  color: #ffffff;
+}
+nav select{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+nav select:hover{
+  color: #000000;
+
+}
+
+.Offersbook{
+
+  width: 59px;
+  height: 36px;
+  background-color: #36A4AA;
+  /* margin-left: 200px; */
+  padding: 16px 50PX 136PX 50PX;
+  border-radius: 26px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin: 11px;
+
+  
+ }
+
+ .Offersbook img {
+  width: 46px;
+  margin-left: 6px;
+
+}
+.Offersbook p{
+  font-size: 10px;
+  text-align: center;
+}
+.Offersbook button{
+  width: 68px;
+  font-size: 9px;
+  background-color: white;
+  border-radius: 40px;
+  border: white;
+  padding: 4px 14PX 4PX 14PX;
+  margin-left: -3PX;
+  cursor: pointer;
+}
+
+.Offersbook button:hover{
+  background-color: #0c5d62;
+  color: white;
+}
+.OfferBook h1{
+  text-align: center;
+  margin-left: 45px;
+}
+
+.FooterForm{
+  text-align: center;
+  margin-left: 215px;
+  margin-top: 62px;
+}
+#emailFooter{
+  width: 305px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 16px;
+  height: 25px;
+  color: white;
+  border: white solid;
+}
+#emailFooter::placeholder{
+  text-align: center;
+}
+#footerButton{
+  color: white;
+  border: white solid;
+  background-color: transparent;
+  outline: none;
+  border-radius: 16px;
+  cursor: pointer;
+  padding: 5px 24PX 4PX 24PX;
+}
+#footerButton:hover{
+  background-color: #ffffff75;
+  border: none;
+  color: #0c5d62;
+}
+.FooterForm input{
+  margin: 5px;
+}
+#FooterForm h3{
+  margin-left: 274px;
+  /* margin-top: 10px; */
+  position: absolute;
+  margin-top: 33px;
+  color: #ffffff;  
+}
+
+
+/* 
+
+#standard-select{
+width: 112px;
+background-color: transparent;
+border: none;
+color: white;
+outline: none;
+margin-left: 160px;
+    position: absolute;
+    margin-top: -16px;
+}
+#standard-select:hover{
+  color: #374748;
+} */
+
+
+
+
+.user_cart i{
+  color:white;
+}
+
+.user_cart i:hover{
+  color:#9ec7c9;
+
+}
+.book{
+  width: 157px;
+  height: 198px;
+  background-color: #36A4AA;
+  /* margin-left: 200px; */
+  padding: 16px 50PX 136PX 50PX;
+  border-radius: 26px;
+  /* margin-left: 110px; */
+  margin-top:100Px;
+  margin: 30px;
+  
+
+
+}
+#priceold{
+    text-decoration: line-through;
+    font-size: 18px;
+}
+.book p{
+    text-align: center;
+    color: black;
+}
+.book img {
+    width: 100px;
+    margin-left: 23px;
+}
+.nav {
+    font-size: 1.1rem;
+    padding-left: 291px;
+    padding-right: 10px;
+    margin-top: -520px;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book button {
+    margin-left: 44px;
+}
+.book a{
+    text-decoration: None;
+}
+
+.bookOf{
+    width: 86px;
+    height: 175px;
+  background-color: #36A4AA;
+  /* margin-left: 200px; */
+  padding: 16px 50PX 136PX 50PX;
+  border-radius: 26px;
+  margin-left: 30px;
+  margin-top:4px;
+
+
+
+}
+.bookOf img{
+    width:60px;
+    margin-left: 9px;
+}
+.bookOf P{
+    font-size:10px;
+    text-align:center;
+}
+.bookOf button{
+    font-size:10px;
+    background-color: white;
+    border-radius: 40px;
+    border: white;
+    padding: 4px 14PX 4PX 14PX;
+    cursor: pointer;
+    margin-left: 11px;
+}
+.bookOf button:hover{
+  background-color: #8bc3c6;
+  color: white;
+}
+
+.bookOf a{
+    text-decoration:none;
+}
+.OfferBook {
+    width: 86%;
+    height:   341px;
+    background-color: transparent;
+    border: #36A4AA solid;
+    border-radius: 50px;
+    MARGIN-LEFT: -44PX;
+    display: flex;
+    justify-content: center;
+}
+.bookOf{
+    text-align:center;
+}
+.bookOf span{
+    text-decoration: line-through;
+}
+.bookOf p{
+    font-size:15px;
+}
+#BookType {
+    text-align: center;
+    color: #36A4AA;
+    font-size: 59px;
+    margin-top: 100px;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user_cart i{
+    color:white;
+}
+
+.user_cart i:hover{
+    color:#9ec7c9;
+
+}
